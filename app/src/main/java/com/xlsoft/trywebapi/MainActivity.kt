@@ -1,6 +1,5 @@
 package com.xlsoft.trywebapi
 
-import android.R.attr.bitmap
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
@@ -10,7 +9,6 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
 import android.widget.SimpleAdapter
-import android.widget.TextView
 import androidx.annotation.UiThread
 import androidx.annotation.WorkerThread
 import androidx.appcompat.app.AppCompatActivity
@@ -24,7 +22,6 @@ import java.net.HttpURLConnection
 import java.net.SocketTimeoutException
 import java.net.URL
 import java.util.concurrent.Executors
-import kotlin.math.roundToInt
 
 
 class MainActivity : AppCompatActivity() {
@@ -175,7 +172,7 @@ class MainActivity : AppCompatActivity() {
                 println(to)
                 println(similarity)
                 println(video)
-                println(image)
+//                println(image)
             }
 
         }
